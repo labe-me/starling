@@ -18,8 +18,8 @@ extern class Event {
 	
 	function new (type:String, bubbles:Bool = false, data:Dynamic = null):Void;
 	
-	function stopPropogation ():Void;
-	function stopImmediatePropogation ():Void;
+	function stopPropagation ():Void;
+	function stopImmediatePropagation ():Void;
 	function toString ():String;
 	
 	var bubbles (default, null):Bool;

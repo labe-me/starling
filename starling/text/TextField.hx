@@ -9,7 +9,7 @@ import starling.display.DisplayObjectContainer;
 
 extern class TextField extends DisplayObjectContainer {
 	
-	function new (width:Int, height:Int, text:String, fontName:String, fontSize:Float = 12, char:UInt = 0x0, bold:Bool):Void;
+	function new (width:Int, height:Int, text:String, fontName:String, fontSize:Float = 12, char:UInt = 0x0, bold:Bool = false):Void;
 	
 	public override function dispose ():Void;
 	
